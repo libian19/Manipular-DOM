@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-size: 18px;
+        }
+    </style>
+    <title>Manipulación del DOM</title>
+
+</head>
+<body style="display: flex; flex-direction: column; align-items:center">
+    <h1 style="font-size: 24px">Ejemplos de casos para Manipulación del DOM</h1>
+    <p>Práctica para aplicar y entender los métodos más usados para hacer inserciones en el DOM</p>
+
+    <div class="container" style="width: 70vw; height: 300px; background-color:pink; padding-top: 24px; text-align: center">
+
+        <p class="ref" style="color:red">PARRAFO DE REFERENCIA</p>
+
+    </div>
+
+    <div>
+        <h3>Selecciona el modo de inserción en el DOM que prefieras</h3>
+        <button class="boton-append">appendChild</button>
+        <button class="boton-insertBefore">insertBefore</button>
+        <button class="boton-insertAdyacentElement">insertAdyacentElement</button>
+        <button class="boton-innerHTML">innerHTML</button>
+        
+    </div>
+
+    <div style="margin-top: 24px; justify-self: center">
+        <button class="reiniciar">Reiniciar</button>
+
+    </div>
+    <script src="./dom.js"></script>
+</body>
+</html>
